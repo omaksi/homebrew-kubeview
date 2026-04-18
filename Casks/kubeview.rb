@@ -1,8 +1,8 @@
 cask "kubeview" do
-  version "0.0.0"
-  sha256 :no_check
+  version "0.1.1"
+  sha256 "c0c19bed0b4bd1e55cbf7a188abc51570edb5f75d10124cd5644f05874498d00"
 
-  url "https://github.com/omaksi/kubeview/releases/download/v#{version}/KubeView-v#{version}.zip"
+  url "https://github.com/omaksi/kubeview/releases/download/v0.1.1/KubeView-v0.1.1.zip"
   name "KubeView"
   desc "Native macOS desktop app for viewing Kubernetes clusters"
   homepage "https://github.com/omaksi/kubeview"
